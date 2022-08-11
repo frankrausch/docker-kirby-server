@@ -15,7 +15,7 @@ This Docker configuration assumes the following folder structure:
 
 ```
 (parent folder)
-├── docker-kirby
+├── docker-kirby-server
 │  └── (contents of this repo) ←←←
 ├── mykirbyproject
 ├── mykirbyotherproject
