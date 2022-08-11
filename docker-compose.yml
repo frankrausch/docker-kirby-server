@@ -4,9 +4,9 @@ version: '3.7'
 services:
   # PHP running on Apache
   webserver:
-    build: ./.docker/php
+    build: ./docker/php
     ports:
       - 80:80
     volumes:
       - ../:/var/www/html:delegated
-      - ./.docker/webserver/vhosts.conf:/etc/apache2/sites-enabled/000-default.conf:ro
+      - ./docker/webserver/vhosts.conf:/etc/apache2/sites-enabled/000-default.conf:ro
