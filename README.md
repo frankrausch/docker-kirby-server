@@ -9,6 +9,8 @@ Multiple Kirby projects can live in the folders adjacent to this repo and will a
 
 ## How to install
 
+You’ll need to get [Docker Desktop](https://www.docker.com/products/docker-desktop/) first.
+
 This Docker configuration assumes the following folder structure:
 
 ```
