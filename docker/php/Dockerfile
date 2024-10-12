@@ -1,5 +1,5 @@
 # Based on official PHP image with Apache
-FROM php:8.1-apache
+FROM php:8.2-apache
 
 # Customize PHP modules
 RUN apt-get update && apt-get install -y \
